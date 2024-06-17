@@ -1,0 +1,55 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items:center;
+    width: 15vw;
+    height: 21vw;
+    min-height: 450px;
+    border: 1px solid rgb(229, 226, 226);
+}
+.Card p{
+    text-align: center;
+    margin: 0.2em 0;
+    padding-left: 0.3em;
+    padding-right:0.3em ;
+}
+.Card img{
+    width: 100%;
+    height: 62%;
+}
+
+.Reiting{
+    width: 97%;
+    text-align: center;
+}
+.Btn_buy{
+    position: absolute;
+    bottom: 3%;
+    width: 30%;
+    min-width: max-content;
+    height: 2.5em;
+    left: 34%;
+    background-color:white;
+    border:1px solid rgb(209, 206, 206);
+    border-radius: 5px;
+    box-shadow:0px 0px 15px 5px  rgb(194, 191, 191);
+    font-size: 0.8em;
+    font-weight: 800;
+}
+.Btn_buy:hover{
+    background-color:red;
+    color:rgb(237, 237, 237);
+    box-shadow:0px 0px 15px 5px  rgb(99, 50, 50);
+    border-color: red;
+}
+
+p>span{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.Price{
+    color:red
+}
+
+
