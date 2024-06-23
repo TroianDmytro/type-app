@@ -5,7 +5,6 @@ import {
    StatusImg, StatusNew, BtnColor
 } from './NewCompTest.styled';
 import ConteinerInfo from '../ConteinerInfo/ConteinerInfo';
-import { it } from 'node:test';
 
 
 interface NewCompTestProps {
@@ -80,7 +79,7 @@ const MemoryChoice: React.FC<MemoryChoiceProps> = ({ items, onSetPrice }) => {
          divRefs.current[focusedIndex]!.focus();
          onSetPrice(focusedIndex);
       }
-   }, [focusedIndex]);
+   }, [focusedIndex, onSetPrice]);
 
    const handleBlur = () => {
       setTimeout(() => {
