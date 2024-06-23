@@ -1,6 +1,6 @@
 {
   "usesTypeScript": true,
-  "usesStyledComponents": false,
+  "usesStyledComponents": true,
   "testLibrary": "None",
   "component": {
     "default": {
